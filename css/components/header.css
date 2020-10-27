@@ -1,0 +1,117 @@
+header {
+    position: relative;
+}
+.navbar {
+    background-color: #937f81;
+    height: 150px;
+}
+.navbar_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+}
+.navbar_logo { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(66, 57, 58, 0.7);
+    width: 25%;
+    height: 100%;
+}
+.navbar_ul>ul {
+    display: flex;
+    
+}
+.navbar_ul_inner {
+    opacity: 0;
+    background-color:  #937f81;
+    position: absolute;
+    top: 40px;
+    right: -30px;
+    z-index: 10;
+    padding-top: 65px;
+    transition: .4s;
+    
+}
+
+.navbar_ul_inner li {
+    padding: 20px 20px;
+}
+.navbar_ul>ul>li {
+    overflow: hidden;
+    padding: 15px 0px;
+    margin-right: 70px;
+    position: relative;
+    
+}
+.navbar_ul>ul>li:hover {
+    overflow: visible;
+}
+.navbar_ul>ul>li:hover .navbar_ul_inner{
+    opacity: 1;
+}
+.navbar_ul ul i {
+    color: white;
+    margin-bottom: 5px;
+}
+.navbar_ul ul li a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+    transition: .3s;
+}
+.navbar_ul ul li a:hover {
+    color: #766667;
+}
+.menu_burger {
+    display: none;
+    height: 20px;
+    width: 30px;
+    position: relative;
+}
+.menu_burger:before,
+.menu_burger:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #cccccc;
+    border-radius: 20%;
+    
+}
+.menu_burger:before {
+    top: 0;
+    transition: .4s;
+}
+
+.menu_burger.active::before {
+    transform: rotate(45deg);
+    right: -1px;
+    top: 3px;
+    width: 50%;
+}
+.menu_burger span{
+    top: 9px;
+    position: absolute;
+    right: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #cccccc;
+    border-radius: 20%;
+    transition: .4s;
+}
+.menu_burger:after {
+    bottom: 0;
+    transition: .4s;
+}
+.menu_burger.active::after {
+    bottom: 3px;
+    right: -1px;
+    transform: rotate(-45deg);
+    width: 50%;
+}
+     

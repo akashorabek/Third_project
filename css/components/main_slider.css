@@ -1,0 +1,103 @@
+.slick-track {
+    display: flex;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+.slider {
+    position: relative;
+}
+.silder_item {
+    height: 600px;
+    outline: none;
+}
+.first_silder {
+    background-image: url(../../img/bgs/slider-1.jpg);
+}
+.second_silder {
+    background-image: url(../../img/bgs/slider-2.jpg);
+}
+.third_silder {
+    background-image: url(../../img/bgs/slider-3.jpg);
+}
+.silder_item_inner {
+    height: 100%;
+}
+.silder_item_inner_content {
+    width: 25%;
+    height: 100%;
+    background-color: rgba(66, 57, 58, 0.7);
+}
+.silder_item_inner_content_text {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 40px;
+    height: 100%;
+}
+.silder_item_inner_content_text h1 {
+    font-size: 48px;
+    color: white;
+    font-weight: 500;
+}
+.silder_item_inner_content_text h5 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+    font-weight: 800;
+}
+.silder_item_inner_content_text p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #d1d1d1;
+}
+.button{
+    margin: 50px 0px;
+}
+.silder_item_inner_content_text a {
+    padding: 15px 70px;
+    border: 2px solid #937f81;
+    color: #937f81;
+    font-weight: 600;
+    background-color: transparent;
+    text-decoration: none;
+    transition: .3s;
+    outline: none;
+}
+.silder_item_inner_content_text a:hover {
+    color: white;
+    background-color: #937f81;
+    border-color: #937f81;
+}
+.slider .slick-arrow {
+    position: absolute;
+    bottom: 50%;
+    z-index: 10;
+    font-size: 24px;
+    color: white;
+    height: 40px;
+    width: 40px;
+    outline: none;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.slider .slick-arrow:hover {
+    color: #937f81;
+    border-color:  white;
+    background-color: white;
+}
+.slider .slick-arrow.fa-chevron-left {
+    left: 2%;
+    
+}
+.slider .slick-arrow.fa-chevron-right {
+    right: 2%;
+}

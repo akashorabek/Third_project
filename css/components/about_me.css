@@ -1,0 +1,126 @@
+.about_me {
+    padding: 60px 0px;
+}
+.about_me_title {
+    text-align: center;
+    margin-top: px;
+}
+.about_me_title h2 {
+    font-size: 28px;
+    color: #937f81;
+    font-family: 'Reenie Beanie', cursive;
+}
+.about_me_title h1 {
+    font-size: 48px;
+    line-height: 1.21;
+    font-weight: 300;
+    margin: 20px 0px;
+}
+.about_me_content {
+    display: flex;
+    margin-top: 40px;
+}
+.about_me_paragraph {
+    margin-left: 20px;
+}
+.about_me_paragraph h5 {
+    letter-spacing: .1em;
+    font-size: 15px;
+    font-weight: 700;
+    color: #777777;
+}
+.about_me_paragraph p {
+    margin: 20px 0;
+    font-size: 15px;
+    font-size: 400;
+    color: #777777;
+    line-height: 1.8;
+}
+.about_me_icons {
+    display: flex;
+    align-items: center;
+    
+    width: 50%;
+}
+.icons>a>i {
+    font-size: 24px;
+    margin-left: 30px;
+    color: #b6b6b6;
+    transition: .3s;
+}
+.icons>a>i:hover {
+    color: #777777;
+}
+.reviews {
+    background-color: #766667;
+}
+.reviews_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.what_people_say h1{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    line-height: 1.2;
+    color: white;
+    font-weight: 300;
+}
+.what_people_say h4 {
+    margin: 0 30px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    color: #937f81;
+    font-family: "Reenie Beanie", cursive, sans-serif;
+}
+.reviews_slider {
+    
+    width: 70%;
+    
+}
+.reviews_slider_item {
+    display: flex;
+    outline: none;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.reviews_slider_item p{
+    font-size: 14px;
+    color: #d1d1d1;
+    line-height: 1.86667;
+    margin-bottom: 15px;
+}
+.reviews_slider_item h2 {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+.reviews_slider_item_text {
+    width: 80%;
+}
+.reviews_slider .slick-dots{
+    
+    display: flex;
+    
+}
+.reviews_slider .slick-dots li {
+    list-style: none;
+    margin: 0 7px;
+}
+.reviews_slider .slick-dots button {
+    font-size: 0;
+    border-radius: 50%;
+    width: 0px;
+    height: 15px;
+    outline: none;
+    border: 2px solid #937f81;
+    background-color: transparent;
+    transition: .3s;
+    cursor: pointer;
+   
+}
+.reviews_slider .slick-dots li.slick-active button{
+    background-color: #937f81;
+}
