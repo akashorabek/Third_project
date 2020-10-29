@@ -80,4 +80,18 @@ $(document).ready(function() {
         $('.menu_burger').toggleClass('active');
         $('.navbar_ul').toggleClass('active');
     })
+    $('.books_slider_item').magnificPopup({
+        delegate: 'a',
+        type:'image',
+        gallery:{
+            enabled:true
+          }
+    });
+    $('.about_me_img').magnificPopup({
+        type:'iframe',
+        items: {
+            src: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+          },
+    });
+
 });
